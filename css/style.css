@@ -1,0 +1,36 @@
+.cart{
+    border: 1px solid black;
+    width: 25%;
+    height: 214px;
+    padding: 8px;
+    text-align: center;
+    transition: 1s all linear;
+}
+.circleCtn{
+    width: 100%;
+}
+.circle {
+    margin: auto;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    padding: 11px 11px 4px 11px;
+    font-size: 39px;
+    border-radius: 100%;
+        transition: 1s transform linear;
+}
+.cart p 
+    {
+    word-break: break-all;
+}
+.cart:hover {
+background: blue;
+color: white;
+}
+.cart:hover .btns{
+    background: red;
+}
+.cart:hover .circle  {
+    transform: rotate(180deg);
+}
